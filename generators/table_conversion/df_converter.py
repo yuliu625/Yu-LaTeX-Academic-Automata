@@ -1,6 +1,6 @@
 """
 Sources:
-    https://github.com/yuliu625/Yu-LaTeX-Academic-Automata/generators/data_table_conversion/df_converter.py
+    https://github.com/yuliu625/Yu-LaTeX-Academic-Automata/generators/table_conversion/df_converter.py
 
 References:
     https://pandas.pydata.org/pandas-docs/stable/user_guide/style.html
@@ -10,6 +10,8 @@ Synopsis:
 
 Notes:
     约定对于基于 xlsx 格式的结果，进行自动化转换。
+
+    基于 Styler 的方法优于直接使用 to_latex 方法。
 """
 
 from __future__ import annotations
