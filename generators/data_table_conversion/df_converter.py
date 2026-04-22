@@ -1,6 +1,6 @@
 """
 Sources:
-    https://github.com/yuliu625/Yu-LaTeX-Chore-Master/data_table_conversion/df_converter.py
+    https://github.com/yuliu625/Yu-LaTeX-Automata/data_table_conversion/df_converter.py
 
 References:
     https://pandas.pydata.org/pandas-docs/stable/user_guide/style.html
