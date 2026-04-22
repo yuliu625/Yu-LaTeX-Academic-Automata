@@ -1,16 +1,6 @@
 """
-Sources:
+Initialization.
 
-References:
-
-Synopsis:
-
-Notes:
-
+Preprocessing methods to latex project templates.
 """
 
-from __future__ import annotations
-from loguru import logger
-
-from typing import TYPE_CHECKING
-# if TYPE_CHECKING:
