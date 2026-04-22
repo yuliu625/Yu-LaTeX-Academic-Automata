@@ -1,5 +1,6 @@
 """
 Sources:
+    https://github.com/yuliu625/Yu-LaTeX-Academic-Automata/postprocessors/latex_project_cleaner.py
 
 References:
     https://github.com/google-research/arxiv-latex-cleaner
@@ -44,7 +45,7 @@ class LaTeXProjectCleaner:
         Args:
             project_path (str): target latex project directory.
             additional_args (list[str]): additional arguments passed to arxiv-latex-cleaner.
-                More optional arguments can be seen via
+                More optional arguments can be seen via:
                 ```bash
                 arxiv_latex_cleaner --help
                 ```
