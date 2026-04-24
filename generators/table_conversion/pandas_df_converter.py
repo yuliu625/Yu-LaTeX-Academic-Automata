@@ -77,3 +77,17 @@ class DataFrameConverter:
         logger.success(f"Saved latex table code to {result_path}")
         return latex_output
 
+
+if __name__ == '__main__':
+    # read xlsx file
+    df_ = pd.read_excel('./date.xlsx')
+    # convert df
+    DataFrameConverter.convert_and_save_df(
+        df=df_,
+        precision=2,
+        label="table:demo_table",
+        caption="demo dataset",
+        position='!htb',
+        result_path='./data.tex',
+    )
+
