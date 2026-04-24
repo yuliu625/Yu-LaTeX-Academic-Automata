@@ -1,2 +1,2 @@
-# LaTeX Chore Master
+# LaTeX Academic Automata
 
