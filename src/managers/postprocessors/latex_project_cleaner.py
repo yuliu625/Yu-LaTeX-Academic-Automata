@@ -1,6 +1,6 @@
 """
 Sources:
-    https://github.com/yuliu625/Yu-LaTeX-Academic-Automata/blob/main/modules/postprocessors/latex_project_cleaner.py
+    https://github.com/yuliu625/Yu-LaTeX-Academic-Automata/blob/main/src/postprocessors/latex_project_cleaner.py
 
 References:
     https://github.com/google-research/arxiv-latex-cleaner
