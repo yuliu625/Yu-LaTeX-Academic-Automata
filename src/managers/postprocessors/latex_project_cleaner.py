@@ -6,12 +6,12 @@ References:
     https://github.com/google-research/arxiv-latex-cleaner
 
 Synopsis:
-    Clean up latex projext.
+    Clean up latex project.
 
 Notes:
     使用 arxiv-latex-cleaner 对于待提交的 latex project 进行清理无关内容。
 
-    arxiv-latex-cleaner 的源码主要基于 RE ，因此:
+    arxiv-latex-cleaner 的源码主要基于 `RE` ，因此:
         - 显式优于隐式: 涉及路径相关方法，不要用 macro 进行封装。
         - single file: latex project 尽可能构建得扁平化，不要有复杂依赖关系。
 
@@ -30,7 +30,7 @@ if TYPE_CHECKING:
 
 class LaTeXProjectCleaner:
     """
-    Clean up latex projext via arxiv-latex-cleaner.
+    Clean up latex project via arxiv-latex-cleaner.
     """
 
     # ==== main method ====
