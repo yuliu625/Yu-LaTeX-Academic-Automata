@@ -1,0 +1,4 @@
+"""
+Tests for content generation.
+"""
+
