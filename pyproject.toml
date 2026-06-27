@@ -14,9 +14,11 @@ dependencies = [
     ## Managers
     "arxiv-latex-cleaner",
     ## Gengerators
+    "pybtex",
     "pylatex",
     "pandas",
     ## Integrations
+    "bibtexparser>=2.0.0b9",  # I need v2. Default method intalls v1.4.4 .
 ]
 
 
